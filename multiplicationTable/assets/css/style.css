@@ -1,0 +1,118 @@
+
+body {
+    text-align: center;
+    background-color:#092442;
+    color:white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#head {
+    padding: 30px 0;
+    transition: 0.2s;
+}
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    margin:0 ;
+}
+
+#nav{
+    margin: 0;
+    background-color: #05596e;
+    height: 50px;
+    line-height: 100%;
+
+}
+#nav span {
+
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 20px; 
+    margin: 0;
+    border-color: #074352;
+}
+#nav span:hover {
+    background-color: #074352;
+    border:0.5px solid  #074352;
+    transition: 0.2s;
+}
+#new {
+    float: left;
+
+}
+
+#nav #message{
+    text-transform: none;
+    font-size: 20px;
+}
+
+#nav #message:hover{
+    border: 0px;
+    background-color:#05596e ;
+}
+
+#nav .righties{
+    float: right;
+}
+.square{
+    background-color:#0f80fc;
+    width: 25%;
+    float: left;
+    margin: 4.16%;
+    padding: 10% 0;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 100%;
+    transition: 0.2s;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.contain {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 100%;
+}
+.wrong {
+    color: red;
+    background-color: red;
+    /* transition: linear 0.3s; */
+}
+
+.correct {
+    color: black;
+    background-color: #0ffc2b;
+    /* transition: 0.3s; */
+}
+
+@media (max-width: 700px) {
+    #message{
+        display: none;
+    }
+    #nav span{
+        font-size: 15px;
+        margin: auto 5px;
+    }
+    .contain{
+        width: 100%;
+    }
+}
+
+.clicked{
+    background-color: #074352;
+    border:0.5px solid  #074352;
+}
